@@ -7,7 +7,7 @@ cd
 
 mkdir kcptun
 cd kcptun
-wget https://github.com/xtaci/kcptun/releases/download/v20161222/kcptun-linux-amd64-20161222.tar.gz
+wget https://github.com/xtaci/kcptun/releases/download/v20170120/kcptun-linux-amd64-20170120.tar.gz
 tar -zxvf *.tar.gz
 cd
 #nohup /root/kcptun/./server_linux_amd64 -t "127.0.0.1:8388" -l ":4000" -mode fast -crypt aes-256 --key "Adf98fg99da1kfj" -mtu 1400 -sndwnd 1024 -rcvwnd 1024 -datashard 10 -parityshard 3 -dscp 46
